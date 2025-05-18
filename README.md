@@ -1,2 +1,3 @@
-# community-launchers
-Community maintained custom launchers for Zaparoo Core
+# Community Launchers
+
+Community maintained custom launchers for Zaparoo Core.
