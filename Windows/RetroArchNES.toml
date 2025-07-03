@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "RetroArchNES"
+system = "NES"
+media_dirs = ["D:\\Emulation\\Roms\\NES"]
+file_exts = [".nes", ".zip"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\RetroArch\\retroarch.exe' -ArgumentList '-f', '-L', 'D:\\Emulation\\Emulators\\RetroArch\\cores\\mesen_libretro.dll', '\"[[media_path]]\"'"
