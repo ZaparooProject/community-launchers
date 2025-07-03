@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "SudachiSwitch"
+system = "Switch"
+media_dirs = ["D:\\Emulation\\Roms\\Switch"]
+file_exts = [".nsp", ".xci"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\Sudachi\\sudachi.exe' -ArgumentList '-f', '-g', '\"[[media_path]]\"'"
