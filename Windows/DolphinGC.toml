@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "DolphinGC"
+system = "GameCube"
+media_dirs = ["D:\\Emulation\\Roms\\GC"]
+file_exts = [".iso", ".gcm", ".rvz", ".ciso"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\Dolphin-x64\\Dolphin.exe' -ArgumentList '-b', '-e', '\"[[media_path]]\"'"

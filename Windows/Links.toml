@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "Links"
+system = "PC"
+media_dirs = ["D:\\Zaparoo\\Links"]
+file_exts = [".lnk", ".url", ".bat"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath '[[media_path]]'"

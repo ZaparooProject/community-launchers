@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "DolphinWii"
+system = "Wii"
+media_dirs = ["D:\\Emulation\\Roms\\Wii"]
+file_exts = [".iso", ".wbfs", ".ciso"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\Dolphin-x64\\Dolphin.exe' -ArgumentList '-b', '-e', '\"[[media_path]]\"'"
