@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "Azahar3DS"
+system = "3DS"
+media_dirs = ["D:\\Emulation\\Roms\\3DS"]
+file_exts = [".3ds", ".cci"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\Azahar\\azahar.exe' -ArgumentList '--fullscreen', '--layout=large-screen', '\"[[media_path]]\"'"
