@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "RetroArchN64"
+system = "N64"
+media_dirs = ["D:\\Emulation\\Roms\\N64"]
+file_exts = [".n64", ".z64", ".v64", ".zip"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\RetroArch\\retroarch.exe' -ArgumentList '-f', '-L', 'D:\\Emulation\\Emulators\\RetroArch\\cores\\mupen64plus_next_libretro.dll', '\"[[media_path]]\"'"
