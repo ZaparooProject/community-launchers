@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "PCSX2PS2"
+system = "PS2"
+media_dirs = ["D:\\Emulation\\Roms\\PS2"]
+file_exts = [".iso", ".bin", ".img", ".nrg", ".mdf", ".chd"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\PCSX2-Nightly\\pcsx2-qt.exe' -ArgumentList '\"[[media_path]]\"'"
