@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "DuckStationPS1"
+system = "PS1"
+media_dirs = ["D:\\Emulation\\Roms\\PS1"]
+file_exts = [".cue", ".bin", ".iso", ".img", ".pbp", ".chd"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\Duckstation\\duckstation-qt-x64-ReleaseLTCG.exe' -ArgumentList '\"[[media_path]]\"'"
