@@ -1,0 +1,6 @@
+[[launchers.custom]]
+id = "CPS2"
+system = "Arcade"
+media_dirs = ["D:\\Emulation\\Roms\\CPS2"]
+file_exts = [".zip"]
+execute = "powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command Start-Process -FilePath 'D:\\Emulation\\Emulators\\RetroArch\\retroarch.exe' -ArgumentList '-L', 'D:\\Emulation\\Emulators\\RetroArch\\cores\\fbalpha2012_cps2_libretro.dll', '\"[[media_path]]\"'"
